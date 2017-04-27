@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{4DC52883-F7D2-428E-8256-55F693985F12}|Default">
+  <MonoDevelop.Ide.ItemProperties.DynamicControls.Droid PreferredExecutionTarget="Android.Nexus_4_API_19" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="DynamicControls/DynamicControlsPage.xaml.cs" Line="45" Column="4" />
+      <File FileName="DynamicControls/MyPage.xaml.cs" Line="13" Column="37" />
+      <File FileName="DynamicControls/App.xaml.cs" Line="11" Column="48" />
+      <File FileName="DynamicControls/MyPageViewModel.cs" Line="13" Column="1" />
+      <File FileName="DynamicControls/DynamicControlsPageWithListView.xaml.cs" Line="14" Column="1" />
+      <File FileName="DynamicControls/MyModel.cs" Line="7" Column="28" />
+      <File FileName="DynamicControls/DynamicControlsPageWithListViewModel.cs" Line="21" Column="1" />
+      <File FileName="DynamicControls/FodyWeavers.xml" Line="3" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DynamicControls" expanded="True">
+            <Node name="DynamicControls" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="DynamicControlsPage.xaml" expanded="True" />
+              <Node name="DynamicControlsPageWithListView.xaml" expanded="True" />
+              <Node name="MyPage.xaml" expanded="True" selected="True" />
+            </Node>
+            <Node name="DynamicControls.Droid" expanded="True" />
+            <Node name="DynamicControls.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/alessandrocaliaro/Projects/Test/DynamicControls/DynamicControls/ButtonClickedConverter.cs" relfile="DynamicControls/ButtonClickedConverter.cs" line="11" column="28" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DynamicControls.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.15F85762-C52A-4642-8C24-44C12C2E24AF" />
+</Properties>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:behaviors="clr-namespace:Behaviors;assembly=Behaviors"
+	x:Class="DynamicControls.DynamicControlsPageWithListView">
+	<ContentPage.Content>
+		<StackLayout>
+			<Button Text="Add an item">
+				<Button.Behaviors>
+			        <behaviors:EventHandlerBehavior EventName="Clicked">
+            			<behaviors:InvokeCommandAction Command="{Binding ClickedCommand}"/>
+    				</behaviors:EventHandlerBehavior>
+				</Button.Behaviors>
+			</Button>
+			<ListView ItemsSource="{Binding List}"  HasUnevenRows="true">
+		    	<ListView.ItemTemplate>
+      				<DataTemplate>
+						<ViewCell>
+	      					<StackLayout>
+	      						<Label Text = "{Binding LabelDescription}"/>
+								<Switch IsToggled = "{Binding Selected}"/>
+								<Entry Text = "{Binding Description}"/>
+							</StackLayout>
+						</ViewCell>
+					</DataTemplate>
+			    </ListView.ItemTemplate>
+			</ListView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
